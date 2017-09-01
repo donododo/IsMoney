@@ -1,0 +1,16 @@
+main: fr.donododo.main.ismoney.IsMoney
+name: IsMoney
+version: 1.0.0
+author: donododo
+depend: [ASkyBlock, Vault]
+commands:
+  ismoney:
+    description: Gagner de la money en fonction du grade
+permissions:
+   ismoney.*:
+     description: Donne toutes les permissions du plugin
+   ismoney.gain:
+     description: Permet de gagner de la money en fonction du grade
+   ismoney.reload:
+     description: Permet de recharger les configurations
+
